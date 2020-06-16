@@ -9,6 +9,7 @@ class StudentsController < ApplicationController
   end
 
   def new
+    @sudent = Student.last 
   end
 
   def create
